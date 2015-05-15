@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div id="board">
+    <table>
+      <tr id="row1">
+        <td id = "00" class="square"></td>
+        <td id = "01" class="square v"></td>
+        <td  id = "02"class="square"></td>
+      </tr>
+      <tr id="row2">
+        <td  id = "10" class="square h"></td>
+        <td  id = "11" class="square v h"></td>
+        <td id = "12" class="square h"></td>
+      </tr>
+      <tr id="row3">
+        <td id = "20" class="square"></td>
+        <td id = "21" class="square v"></td>
+        <td id = "22" class="square"></td>
+      </tr>
+    </table>
+<br>
+<br>
+<a href="#" id="ticTacToeButton" class="button playButton">Lets Play</a>
+<a href="#" id="resetButton" class="button resetButton">Reset</a>
+<br>
+<div id="x-won" class="result" style="display:none;">X WON</div>
+<div id="o-won" class="result" style="display:none;">O WON</div>
+<div id="tie" class="result" style="display:none;">IT'S A TIE</div>
+
+  </div>
+<script src="tic-tac-toe.js"></script>
+<script src="play-tic-tac-toe.js"></script>
+</body>
+</html>
