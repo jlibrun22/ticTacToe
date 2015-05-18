@@ -1,0 +1,4 @@
+# ticTacToe
+A tic tac toe exercise with some AI. The app is build using a minimax algorithm where it scores each move for a given play. If a given move results in a win, the score is 1, 0 for no win or loss, and -1 for a loss( it si actually scored the opposite way for the o-player). If a given move will result in neither a win or loss, the algorithm checks if the opponent can win on the play given their own move. if they can, the current player blocks them. If none of these situations are the case, then the player will just move randomly.
+
+The game also checks for ties after every given play. If the game will end in a tie, it stops the game and prints the board. The way we check for ties is checking each of the 8 win lines, and seeing if there are two differing player moves in the row. If that's the case for all 8, then the game will result in a tie no matter what.
