@@ -163,7 +163,7 @@ var ticTacToeGame = (function() {
                             neutrolCols.push(move[1]);
                         } else {
 
-                            console.log('xPlayer is going to lose');
+                            console.log('xPlayer is going to lose if I make this move');
                         }
 
                     }
@@ -184,7 +184,7 @@ var ticTacToeGame = (function() {
                             neutrolRows.push(move[0]);
                             neutrolCols.push(move[1]);
                         } else {
-                            console.log('oplayer is going to lose');
+                            console.log('oplayer is going to lose if I make this move');
                         }
                     }
 
